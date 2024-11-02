@@ -51,6 +51,7 @@ python compress_videos.py /home/user/videos /home/user/compressed_videos --bitra
 - I used it for compressing the Radeon ReLive folder. It managed to reduce its size to about half with 15M bitrate (from 40.9GiB to 20.1GiB)
 - **Don't** point the input and the destination to the same folder.
 - Most of the code was written with the help of AI
+- I take no responsibility for corrupted or lost files, though that is unlikely since the script never touches the input files, it only reads them.
 
 ## Troubleshooting
 
@@ -59,4 +60,4 @@ python compress_videos.py /home/user/videos /home/user/compressed_videos --bitra
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 

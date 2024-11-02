@@ -48,7 +48,7 @@ python compress_videos.py /home/user/videos /home/user/compressed_videos --bitra
 - The script will traverse the input directory recursively, compressing **ALL** supported video files it finds.
 - If the output directory does not exist, it will be created automatically.
 - The script will only process two videos at a time, one using GPU and one using CPU. Doing more at the same time is less efficient.
-- I used it for compressing the Radeon ReLive folder. It managed to reduce its size to about half with 15M bitrate (from 40.9GiB to )
+- I used it for compressing the Radeon ReLive folder. It managed to reduce its size to about half with 15M bitrate (from 40.9GiB to 20.1GiB)
 - **Don't** point the input and the destination to the same folder.
 - Most of the code was written with the help of AI
 
